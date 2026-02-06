@@ -1,9 +1,10 @@
 {
   "name": "brandguide",
   "version": "1.0.0",
+  "packageManager": "pnpm@10.28.2",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "opennextjs-cloudflare build",
     "start": "next start",
     "lint": "eslint .",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
